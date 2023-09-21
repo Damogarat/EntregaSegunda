@@ -30,7 +30,7 @@ if(respuesta == SI){
 }
 
 
-let continuar = prompt("Vas a ingresar a la tienda online. Te avisamos que solo vamos a entregarte bebidas si presentas tu DNI y únicamente por la zona de Belgrano. Queres continuar??").toLowerCase().trim();
+let continuar = prompt("Vas a ingresar a la tienda online. Te avisamos que solo vamos a entregarte bebidas si acreditas tu edad con tu DNI, y únicamente por la zona de Belgrano. Queres continuar??").toLowerCase().trim();
 const carrito = [];
 let total;
 let mostrar = false;
